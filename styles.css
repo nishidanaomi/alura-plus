@@ -11,17 +11,42 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+
+    
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("/img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.conteiner {
+.container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--azul-botao);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 0.75em;
 }
