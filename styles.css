@@ -42,6 +42,7 @@ body {
     color: var(--branco-principal);
     display: block;
     margin-bottom: 1em;
+
 }
 
 .botao_secundario {
@@ -94,4 +95,17 @@ body {
 
 .container__descricao {
     padding: 2em;
+}
+
+.dispositivos {
+    display: inline-block;
+    width: 100%;
+}
+
+.descricao__dispositivo {
+    text-align: center;
+}
+
+.dispositivos__tipos {
+    justify-content: space-around;
 }
