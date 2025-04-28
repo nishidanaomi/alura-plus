@@ -98,14 +98,18 @@ body {
 }
 
 .dispositivos {
-    display: inline-block;
-    width: 100%;
-}
-
-.descricao__dispositivo {
     text-align: center;
 }
 
-.dispositivos__tipos {
-    justify-content: space-around;
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+ 
+.descricao__dispositivo {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--branco-principal);
 }
