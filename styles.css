@@ -5,6 +5,7 @@
     --azul-botao: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --azul-botao-hover: #6af5f5;
 }
 
 * {
@@ -137,3 +138,28 @@ body {
     font-size: 14px;
     margin: 1em;
 }
+
+.lista__link a:hover {
+    color: var(--azul-botao);
+}
+
+.lista__link a:visited {
+    color: var(--cinza-secundario);
+}
+
+.container__botao:hover {
+    background-color:var(--azul-botao-hover);
+    color: var(--cor-de-fundo);
+    transition: background-color 0.6s;
+}
+
+@media (max-width: 767px) /* tela de celular */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+  }
+
+  @media (min-width: 1281px) {
+    /* Estilos para telas grandes */
+  }
+  
